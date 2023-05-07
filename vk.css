@@ -1,0 +1,22 @@
+form {
+    margin: 0 auto;
+    padding: 20px;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc; 
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    height: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+label {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="vk.css" rel="stylesheet">
+    <title>Переговорная</title>
+</head>
+<body>
+    <form class="form">
+        <h1>Выберите переговорную</h1>
+        <div>
+            <label for="tower-select">Башня:</label>
+            <select name="towers" id="tower-select" required>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select>
+        </div>
+        <div class="floor">
+            <label for="floors" >Этаж:</label>
+        </div>
+        
+        <div class="rooms">
+            <label for="rooms" >Переговорная:</label>
+        </div>
+
+        <div>
+            <label for="dateChoose">Дата:</label>
+            <input type="date" id="dateChoose" value="2023-05-07" min="2023-05-07" max="2033-05-06" required>
+        </div>
+
+        <label for="comment">Оставьте комментарий:</label>
+        <textarea id="comment" rows="1" cols="30"></textarea>
+        <div class="buttons">
+            <input  type="submit" value="Отправить заявку">
+            <input type="reset" value="Очистить заявку">
+        </div>
+
+    </form>
+    
+    <script src="vk.js"></script>
+</body>
+</html>
